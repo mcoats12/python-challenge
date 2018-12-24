@@ -12,7 +12,6 @@ with open(BudgetCSV) as csvfile:
     #Define the variables
     months=0
     revenue=0
-    # Counts the Total Rows
     rows=[r for r in csvreader]
     #Defaulting to the First Value available in the Sheet
     change_revenue=int(rows[1][1])
