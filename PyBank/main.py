@@ -47,7 +47,7 @@ print("Greatest Increase in Revenue:" + str(max[0])+" ($" + str(max[1])+")")
 print("Greatest Decrease in Revenue:" + str(min[0])+" ($" + str(min[1])+")")
 
 # Save the Outputs to txt
-output_file = os.path.join("output.txt")
+output_file = os.path.join("Budget.txt")
 with open(output_file, "w") as text:
     text.write("Financial Analysis" + "\n")
     text.write("----------------------------------------" + "\n")
